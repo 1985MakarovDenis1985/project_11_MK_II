@@ -47,7 +47,10 @@ a {
 }
 
 html {
-  background-image: url(../img/footer.png);
+  background-image: url(../img/html.png);
+  background-position: 0px 0px;
+  background-size: contain;
+  background-size: 10%;
 }
 
 .main_box {
@@ -1704,6 +1707,7 @@ ul > li.slick-active:before {
 }
 
 .menu_box_2 {
+  background-size: cover;
   background-image: url("../img/ginnes.png");
 }
 
@@ -1883,12 +1887,16 @@ ul > li.slick-active:before {
   background-image: url("../img/wine_4.jpeg");
 }
 
+.main_img_first {
+  margin-left: 2px;
+}
+
 .main_img_second {
-  margin-left: -645px;
+  margin-left: -640px;
 }
 
 .main_img_third {
-  margin-left: -1283px;
+  margin-left: -1290px;
 }
 
 .img_5,
@@ -2354,7 +2362,7 @@ ul > li.slick-active:before {
 
   .main_img_third {
     width: 1440px;
-    margin-left: -962px;
+    margin-left: -967px;
   }
 
   .img_8 {
@@ -2637,7 +2645,7 @@ ul > li.slick-active:before {
   }
 
   .menu_box_2 {
-    background-position: 0 0;
+    background-position: 0 0px;
     background-size: 100%;
   }
 
