@@ -80,9 +80,10 @@
 }
 
 .menu_box_2 {
+  background-size: cover;
   background-image: url("../img/ginnes.png");
   @media screen and (max-width: 1024px) {
-    background-position: 0 0;
+    background-position: 0 0px;
     background-size: 100%;
   }
   @media screen and (max-width: 768px) {
@@ -270,13 +271,14 @@
 }
 
 .main_img_first {
+  margin-left: 2px;
   @media screen and (max-width: 1024px) {
     background-position: 0 0;
   }
 }
 
 .main_img_second {
-  margin-left: -645px;
+  margin-left: -640px;
   @media screen and (max-width: 1440px) {
     width: 1440px;
     margin-left: -478px;
@@ -289,10 +291,10 @@
 }
 
 .main_img_third {
-  margin-left: -1283px;
+  margin-left: -1290px;
   @media screen and (max-width: 1440px) {
     width: 1440px;
-    margin-left: -962px;
+    margin-left: -967px;
   }
 }
 
@@ -403,7 +405,7 @@
   padding-top: 85px;
   box-sizing: border-box;
   transition: 0.5s;
-
+  cursor: pointer;
   &:hover {
     background: rgba(0, 0, 0, 0.1);
   }

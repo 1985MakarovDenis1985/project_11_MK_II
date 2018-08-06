@@ -41,7 +41,6 @@
 .second_slider{
   height: 675px;
   background-image: url(../img/footer.png);
-  // border-bottom: 5px solid red;
   @media screen and (max-width: 1024px){
     height: 555px;
   }
@@ -54,8 +53,6 @@
 .second_slider_right{
   height: 500px;
   width: 55%;
-  // background-image: url(../img/Cook_2.png);
-  // background-size: cover;
   background-position: center ;
   float: left;
   overflow: hidden;
